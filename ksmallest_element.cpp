@@ -21,6 +21,7 @@ void ksmallest(int*arr,int n,int k){
       pq.pop();
   }
 // time complexity:O(nlogk)
+space :O(k)
     
 }
 int main() {
