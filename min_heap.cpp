@@ -72,7 +72,10 @@ int main() {
 	p.insert(14);
 	int m=p.removeMin();
 	cout<<m<<endl;
-	cout<<p.getmin();
+	cout<<p.getmin()<<endl;
+	while(!p.isEmpty()){
+		cout<<p.removeMin()<<" ";
+	}
 
 	return 0;
 }
